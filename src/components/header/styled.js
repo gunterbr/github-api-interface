@@ -6,6 +6,11 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   padding: 4px;
 
+  form {
+    display: flex;
+    width: 100%;
+  }
+
   input {
     border: 1px solid #ccc;
     border-radius: 8px;
